@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Ariya&#39;s Notes</title>
   
-  <subtitle>Quick notes</subtitle>
+  <subtitle>Notes</subtitle>
   <link href="volet-gh.github.io/atom.xml" rel="self"/>
   
   <link href="http://gonghanhan.cn/"/>
-  <updated>2020-02-11T06:03:06.197Z</updated>
+  <updated>2020-02-12T11:11:14.881Z</updated>
   <id>http://gonghanhan.cn/</id>
   
   <author>
@@ -17,25 +17,10 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>guestbook</title>
-    <link href="http://gonghanhan.cn/2020/02/11/guestbook/"/>
-    <id>http://gonghanhan.cn/2020/02/11/guestbook/</id>
-    <published>2020-02-11T06:03:06.000Z</published>
-    <updated>2020-02-11T06:03:06.197Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>2020计划列表</title>
     <link href="http://gonghanhan.cn/2020/02/11/%E7%AC%AC%E4%B8%80%E7%AF%87blog/"/>
     <id>http://gonghanhan.cn/2020/02/11/%E7%AC%AC%E4%B8%80%E7%AF%87blog/</id>
-    <published>2020-02-11T05:07:02.000Z</published>
+    <published>2020-02-11T13:07:02.000Z</published>
     <updated>2020-02-12T11:11:14.881Z</updated>
     
     <content type="html"><![CDATA[<p>年度计划</p><a id="more"></a><p>1.计算机科学与技术专升本能成功<br>2.英语六级<br>3.计算机二级<br>4.刷LeetCode</p>]]></content>
