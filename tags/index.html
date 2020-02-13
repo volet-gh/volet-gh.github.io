@@ -225,13 +225,59 @@
       
       <div class="post-body">
           <div class="tag-cloud">
-            <div class="tag-cloud-title">
-              暂无标签
-            </div>
-            <div class="tag-cloud-tags">
-              
-            </div>
-          </div>
+  <!-- <div class="tag-cloud-title">
+      暂无标签
+  </div> -->
+  <div class="tag-cloud-tags" id="tags">
+    
+  </div>
+</div>
+<br>
+
+<script type="text/javascript">
+   var alltags=document.getElementById('tags');
+   var tags=alltags.getElementsByTagName('a');
+
+   for (var i = tags.length - 1; i >= 0; i--) {
+     var r=Math.floor(Math.random()*75+130);
+     var g=Math.floor(Math.random()*75+100);
+     var b=Math.floor(Math.random()*75+80);
+     tags[i].style.background = "rgb("+r+","+g+","+b+")";
+   }
+</script>
+
+<style type="text/css">
+    div#posts.posts-expand .tag-cloud a{
+   background-color: #f5f7f1;
+   border-radius: 6px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 18px;
+
+ }
+
+ .tag-cloud a{
+   background-color: #f5f7f1;
+   border-radius: 4px;
+   padding-right: 5px;
+   padding-left: 5px;
+   margin-right: 5px;
+   margin-left: 0px;
+   margin-top: 8px;
+   margin-bottom: 0px;
+
+ }
+
+ .tag-cloud a:before{
+      content: "?";
+ }
+
+ .tag-cloud-tags{
+   text-align: left;
+   counter-reset: tags;
+ }
+</style>
+
         
       </div>
       
@@ -250,19 +296,19 @@
           
       <div class="tabs tabs-comment">
         <ul class="nav-tabs">
-            <li class="tab"><a href="#comment-livere">livere</a></li>
             <li class="tab"><a href="#comment-valine">valine</a></li>
+            <li class="tab"><a href="#comment-livere">livere</a></li>
         </ul>
         <div class="tab-content">
+            <div class="tab-pane valine" id="comment-valine">
+              <div class="comments" id="valine-comments"></div>
+            </div>
             <div class="tab-pane livere" id="comment-livere">
               
   <div class="comments">
     <div id="lv-container" data-id="city" data-uid="MTAyMC80ODYwMi8yNTA5Ng=="></div>
   </div>
   
-            </div>
-            <div class="tab-pane valine" id="comment-valine">
-              <div class="comments" id="valine-comments"></div>
             </div>
         </div>
       </div>
@@ -457,22 +503,6 @@
 
   
 
-<script>
-NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
-  window.livereOptions = {
-    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
-});
-</script>
-
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
@@ -499,6 +529,22 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       serverURLs : ''
     });
   }, window.Valine);
+});
+</script>
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
 });
 </script>
 
