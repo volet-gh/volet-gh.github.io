@@ -3,11 +3,11 @@
   <title>Ariya&#39;s Notes</title>
   
   <subtitle>Notes</subtitle>
-  <link href="volet-gh.github.io/atom.xml" rel="self"/>
+  <link href="/hexo/atom.xml" rel="self"/>
   
-  <link href="http://volet-gh.github.io/"/>
+  <link href="http://gonghanhan.cn/hexo/"/>
   <updated>2020-02-12T11:11:14.881Z</updated>
-  <id>http://volet-gh.github.io/</id>
+  <id>http://gonghanhan.cn/hexo/</id>
   
   <author>
     <name>Ariya</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>2020计划列表</title>
-    <link href="http://volet-gh.github.io/2020/02/11/%E7%AC%AC%E4%B8%80%E7%AF%87blog/"/>
-    <id>http://volet-gh.github.io/2020/02/11/%E7%AC%AC%E4%B8%80%E7%AF%87blog/</id>
+    <link href="http://gonghanhan.cn/hexo/2020/02/11/%E7%AC%AC%E4%B8%80%E7%AF%87blog/"/>
+    <id>http://gonghanhan.cn/hexo/2020/02/11/%E7%AC%AC%E4%B8%80%E7%AF%87blog/</id>
     <published>2020-02-11T13:07:02.000Z</published>
     <updated>2020-02-12T11:11:14.881Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://volet-gh.github.io/2020/02/10/hello-world/"/>
-    <id>http://volet-gh.github.io/2020/02/10/hello-world/</id>
+    <link href="http://gonghanhan.cn/hexo/2020/02/10/hello-world/"/>
+    <id>http://gonghanhan.cn/hexo/2020/02/10/hello-world/</id>
     <published>2020-02-10T06:26:14.417Z</published>
     <updated>2020-02-08T14:14:16.402Z</updated>
     
