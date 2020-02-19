@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>pythyon开始学习！</title>
+      <link href="/volet-gh.github.io/2020/02/19/pythyon%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%EF%BC%81/"/>
+      <url>/volet-gh.github.io/2020/02/19/pythyon%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<h1>Day 1</h1><blockquote><p>Make English as your working language.<br>Practice makes perfect.<br>All experience comes from mistakes.<br>Don’t be one of the leeches.<br>Either stand out or kicked out.</p></blockquote><p>安装方面就省略掉了。。。<br>·Python环境自带的开发工具IDLE</p><h2>样例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">import turtle</span><br><span class="line"></span><br><span class="line">turtle.pensize(4)</span><br><span class="line">turtle.pencolor(&#39;red&#39;)</span><br><span class="line"></span><br><span class="line">turtle.forward(100)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(100)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(100)</span><br><span class="line">turtle.right(90)</span><br><span class="line">turtle.forward(100)</span><br><span class="line"></span><br><span class="line">turtle.mainloop()</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>雪</title>
       <link href="/volet-gh.github.io/2020/02/16/%E9%9B%AA/"/>
       <url>/volet-gh.github.io/2020/02/16/%E9%9B%AA/</url>
