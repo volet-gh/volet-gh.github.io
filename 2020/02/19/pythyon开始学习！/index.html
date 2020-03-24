@@ -35,7 +35,7 @@
 
 
 
-    <link rel="shortcut icon" href="/22-4.png">
+    <link rel="shortcut icon" href="/favicon.png">
 
 
 
@@ -165,6 +165,8 @@
                         
                             <li><a href="/volet-gh.github.io/archives/">所有文章</a></li>
                         
+                            <li><a href="/volet-gh.github.io/tags/%E9%9A%8F%E7%AC%94">随笔</a></li>
+                        
                             <li><a href="/volet-gh.github.io/tags/">标签云</a></li>
                         
                             <li><a href="/volet-gh.github.io/about/">关于我</a></li>
@@ -176,9 +178,7 @@
                             
                                 <a class="fa Email" href="/volet-gh.github.io/978135571@qq.com" title="Email"></a>
                             
-                                <a class="fa GitHub" href="/volet-gh.github.io/" title="GitHub"></a>
-                            
-                                <a class="fa RSS" href="/volet-gh.github.io/atom.xml" title="RSS"></a>
+                                <a class="fa GitHub" href="https://github.com/volet-gh" target="_blank" rel="noopener" title="GitHub"></a>
                             
                         </ul>
                     </nav>
@@ -242,6 +242,8 @@
                 
                     <li><a href="/volet-gh.github.io/archives/">所有文章</a></li>
                 
+                    <li><a href="/volet-gh.github.io/tags/%E9%9A%8F%E7%AC%94">随笔</a></li>
+                
                     <li><a href="/volet-gh.github.io/tags/">标签云</a></li>
                 
                     <li><a href="/volet-gh.github.io/about/">关于我</a></li>
@@ -254,9 +256,7 @@
                             
                                 <a class="fa Email" target="_blank" href="/volet-gh.github.io/978135571@qq.com" title="Email"></a>
                             
-                                <a class="fa GitHub" target="_blank" href="/volet-gh.github.io/" title="GitHub"></a>
-                            
-                                <a class="fa RSS" target="_blank" href="/volet-gh.github.io/atom.xml" title="RSS"></a>
+                                <a class="fa GitHub" target="_blank" href="https://github.com/volet-gh" title="GitHub"></a>
                             
                         </ul>
             </nav>
@@ -451,7 +451,7 @@
         <div id="footer-info">
             <div class="footer-left">
                 <i class="fa fa-copyright"></i> 
-                2016-2020 Ariya
+                2020 Ariya
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
@@ -512,14 +512,14 @@
     
         var oOpenInNew = {
             
-            
-            
-            
-            
-            
+             title: "a.article-title, .article-more-link a", 
+             post: ".article-entry a[href], .copyright a[href]", 
+             tags: ".article-tag a", 
+             categories: ".article-category a, a.tag-list-link", 
+             articleNav: "#article-nav a, #post-nav-button a", 
              archives: ".archive-article-title", 
              miniArchives: "a.post-list-link", 
-            
+             menu: ".header-menu a", 
              friends: "#js-friends a", 
              socail: ".social a" 
         }
